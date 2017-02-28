@@ -42,9 +42,6 @@ public class CompositeExample {
         cUsed.addChildComment(cUsedProblem2);
         cUsed.addChildComment(cUsedProblem3);
         System.out.println(c1.toString());
-        
-        
-        
     }
     
 }
