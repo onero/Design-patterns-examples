@@ -16,17 +16,17 @@ public class Main {
      */
     public static void main(String[] args) {
         ProductFactory factory = new ProductFactory();
-        
+
         Product bike = factory.createEntity("Bike");
         Product bike2 = factory.createEntity("Bike");
         Product bike3 = factory.createEntity("Bike");
         Product computer = factory.createEntity("Computer");
-        
+
         System.out.println("bike1: " + bike.getName() + " price: " + bike.getPrice());
         System.out.println("bike2: " + bike2.getName() + " price: " + bike2.getPrice());
         System.out.println("bike3: " + bike3.getName() + " price: " + bike3.getPrice());
         System.out.println("computer: " + computer.getName() + " price: " + computer.getPrice());
-        
+
     }
-    
+
 }
